@@ -10,7 +10,7 @@ body {
 }
 
 .card {
-  background: white;
+  background: rgb(90, 58, 58);
   width: 320px;
   padding: 20px;
   margin: auto;
@@ -26,7 +26,7 @@ img {
 
 button {
   margin-top: 15px;
-  background: #007bff;
+  background: #021122;
   border: none;
   color: white;
   padding: 10px 15px;
@@ -36,5 +36,5 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  background: #060708;
 }
