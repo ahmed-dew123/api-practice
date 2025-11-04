@@ -4,6 +4,7 @@ function loadUser() {
     .then(res => res.json())      // Convert response to JSON
     .then(data => {
       // Extracting user information
+      
       let user = data.results[0];
 
       document.getElementById("userImg").src = user.picture.large;
